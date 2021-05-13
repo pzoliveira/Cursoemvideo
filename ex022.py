@@ -1,0 +1,6 @@
+nome = str(input('Nome completo: ')).strip()
+print(nome.upper())
+print(nome.lower())
+print('Seu nome tem {} letras ao todo.'.format(len(nome) - nome.count(' ')))
+lista = nome.split()
+print('Seu primeiro nome {} tem {} letras.'.format(lista[0], len(lista[0])))
